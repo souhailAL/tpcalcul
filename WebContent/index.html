@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Calculatrice</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<body>
+<center>
+    <h1>Calculatrice</h1>
+  <hr>
+<form action="FormulaireServlet"  method="post">
+   
+         <b>Opérande 1 </b>
+          <input class="in" type="text" name="o1" value="" ><br>
+          
+         <b>Opérande 2 </b>
+         <input class="in" type="text" name="o2" value="" ><br>
+  
+         <b>  Opération : </b> 
+         <input   type="radio" name="operation" value="addition"> Addition
+         <input   type="radio" name="operation" value="soustraction" > Soustraction
+         <input   type="radio" name="operation" value="multiplication"> Multiplication
+         <input   type="radio" name="operation" value="division"> Division<br><br>
+     
+         <input class="bouton" type="submit"  value="Envoyer">
+         <input class="bouton" type="reset"  value="Retablir">
+  </form>
+ </center>   
+</body>
+</html>
